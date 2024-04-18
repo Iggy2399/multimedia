@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,28 +6,85 @@
     <title>Moja Bootstrap Stranica</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
     <style>
+        body {
+            background-color: #4744440c; 
+        }
         .card {
             margin-top: 20px;
+        }
+        
+        .footer {
+            background-color: #ffffff;
+            padding: 20px;
+        }
+        .footer img {
+            max-width: 500px; 
+        }
+        .kon {
+            background-color: #ffffff;
         }
     </style>
 </head>
 <body>
+    <h1 class="text-center mt-4 mb-4">Multimedijska tehnika</h1>
+    <p class="text-center">Ova stranica je projektni zadatak iz kolegija Multimedijska tehnika <br>
+    Cilje je izraditi digtalni životopis
+    </p>
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-6">
                 <div class="card">
-                    <img src="images/david.jpg" class="card-img-top" alt="Slika 1">
+                    <img src="/images/david.jpg" alt="Slika 1" data-bs-toggle="modal" data-bs-target="#davidModal">
                     <div class="card-body">
-                        <h5 class="card-title">Klikni ovdje za više informacija</h5>
-                        <a href="david.html" class="btn btn-primary">Klikni</a>
+                        <h5 class="card-title", href="david.html">DAVID___LOBODA</h5>
+                        <a href="david.html" class="btn btn-primary">Više o</a>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="images/igor.webp" class="card-img-top" alt="Slika 2">
+                    <img src="/images/igor.webp" class="card-img-top" alt="Slika 2" data-bs-toggle="modal" data-bs-target="#igorModal">
                     <div class="card-body">
-                        <h5 class="card-title">Klikni ovdje za više informacija</h5>
-                        <a href="igor.webp" class="btn btn-primary">Klikni</a>
+                        <h5 class="card-title">IGOR__BALIĆ</h5>
+                        <a href="igor.html" class="btn btn-primary">Više o</a>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- David Modal -->
+    <div class="modal fade" id="davidModal" tabindex="-1" aria-labelledby="davidModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="/images/david.jpg" class="img-fluid" alt="David Loboda">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Igor Modal -->
+    <div class="modal fade" id="igorModal" tabindex="-1" aria-labelledby="igorModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="/images/igor.webp" class="img-fluid" alt="Igor Balić">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-5">
+        <div class="col text-center">
+            <!-- Prazan redak za razmak -->
+        </div>
+    </div>
+    <div class="footer">
+        <div class="row kon">
+            <div class="col">
+                <img src="/images/ferit_0_0.webp" alt="Slika">
+            </div>
+            <div class="col">
+                <div class="footer">
+                    <p>Ovu stranicu su izradili David i Igor za kolegij<br> Multimedijska tehnika</p>
                 </div>
             </div>
         </div>
