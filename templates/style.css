@@ -1,0 +1,12 @@
+
+.card:hover{
+    box-shadow: 8px 8px 8px rgba(43, 1, 43, 0.719);
+    transform:scale(1.1);
+    
+}
+
+.card{
+  
+  transition:.3s;
+  margin: 3rem;
+}
