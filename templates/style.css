@@ -44,10 +44,11 @@ float: left;
 li a {
   transition: 0.3s;
     display: block;
-    color: rgba(255, 255, 255, 0.767);
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
   /* Change the link color to #111 (black) on hover */
 li a:hover {
