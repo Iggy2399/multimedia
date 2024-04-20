@@ -20,7 +20,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333333a9;
+    background-color: #ffffff2d;
     border-radius: 5px;
    
   }
@@ -28,11 +28,23 @@ ul {
 li{
 float: left;
 }
+#multi{
+  color: rgba(255, 255, 255, 0.836);
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+#parag{
+  color: rgba(255, 255, 255, 0.705);
+  font-size: larger;
+}
   
 li a {
   transition: 0.3s;
     display: block;
-    color: rgba(255, 255, 255, 0.74);
+    color: rgba(255, 255, 255, 0.767);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
