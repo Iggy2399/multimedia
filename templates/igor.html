@@ -7,9 +7,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <style>
-        body {
-            background-color: #4744440c; /* Promijenite ovu vrijednost u željenu boju */
-        }
+       
         a {
             color: black; /* Boja linkova */
             text-decoration: none; /* Uklanjanje podvlačenja */
@@ -30,11 +28,11 @@
             margin-top: 20px;
         }
         .youtube-video {
-            margin-top: 20px;
+            margin-top: 10px;
         }
     </style>
 </head>
-<body>
+<body style="background-image:url(./images/kobe_lebron_16x9.png); background-size: auto;   ">
 
     <!--navigacija-->
     <ul style="margin-left: 15%; margin-right: 15%; margin-top: 5px;">
@@ -44,15 +42,15 @@
       </ul> 
 
 
-    <div class="container mt-4">
-        <h1 class="text-center mb-6">Igor</h1>
-        <h3>Opčenito o meni:</h3>
+    <div class="container mt-4" style="background-color:rgba(250, 238, 216, 0.932); border-radius: 8px;">
+        <h1 class="text-center">Igor Balić</h1>
+        <h3>Opčenito o meni:</h3><hr>
             <p>Pozdrav! Moje ime je  Igor Balić i student sam 
-            <a href="https://www.ferit.unios.hr/">FERIT-a.</a><br>
+            <a href="https://www.ferit.unios.hr/" style="color: brown;">FERIT-a.</a><br>
             <p>Trenutno sam na trećoj godini preddiplomskog stručnog studija računarstva. </p>
             <p>Rođen sam 02.07.1999. godine u Vinkovcima.</p>
         Završio sam  <a href="http://ss-tehnicka-ntesla-vu.skole.hr/" 
-        style="color: brown">Tehničku školu Nikole Tesle u Vukovaru</a> i stekao zvanje tehničar za računalstvo. <br>
+        style="color: brown;">Tehničku školu Nikole Tesle u Vukovaru</a> i stekao zvanje tehničar za računalstvo. <br>
         <p>Nakon svog srednjoškolskog obrazovanja upisujem 
             <a href="https://www.fizika.unios.hr/" style="color: brown;">Odjel za fiziku</a> u Osijeku gdje sam studirao 2 semestra.</p>
             <H3>Hobiji:</H3>
@@ -61,42 +59,38 @@
             </p>
             <h3>Vještine:</h3>
             <p>Smatram se komunikativnom osobom i timskim igračem.
-            Dobro znanje engleskog jezika u pismu, čitanju i razgovoru.</p>
+            Dobro znanje engleskog jezika u pismu, čitanju i razgovoru. Imam iskustva u radu s frontend i backend razvojem web stranica u Angular frameworku, također i NodeJs za backend.</p>
 
-
-
-
-
-
-        <p class="text-center"></p>
+        
         <h4 class="text-center">Galerija</h4>
 
-        <div class="row mt-4 gallery">
+        <div class="row mt-4 gallery" style="background-color:rgba(0, 0, 0, 0.623);">
             <div class="col-md-3">
-                <p class="text-center">JPG</p>
-                <img src="./images/igor.jpg" alt="David 1" data-bs-toggle="modal" data-bs-target="#davidModal1">
+                <p class="text-center" style="color: rgba(255, 255, 255, 0.836);">JPG</p>
+                <img src="./images/igor.jpg" alt="David 1" data-bs-toggle="modal" data-bs-target="#davidModal1" style="border-radius: 10px;" class="slika">
             </div>
             <div class="col-md-3">
-                <p class="text-center">GIF</p>
-                <img src="./images/igor.webp" alt="David 2" data-bs-toggle="modal" data-bs-target="#davidModal2">
+                <p class="text-center" style="color: rgba(255, 255, 255, 0.836);">GIF</p>
+                <img src="./images/lbj.gif" alt="David 2" data-bs-toggle="modal" data-bs-target="#davidModal2" style="border-radius: 10px;" class="slika">
             </div>
             <div class="col-md-3">
-                <p class="text-center">BMP</p>
-                <img src="./images/ferit_0_0.webp" alt="David 3" data-bs-toggle="modal" data-bs-target="#davidModal3">
+                <p class="text-center" style="color: rgba(255, 255, 255, 0.836);">BMP</p>
+                <img src="./images/lebron.bmp" alt="David 3" data-bs-toggle="modal" data-bs-target="#davidModal3" style="border-radius: 10px;" class="slika">
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3" style="color: rgba(255, 255, 255, 0.836);">
                 <p class="text-center">WEBP</p>
-                <img src="./images/david4.jpg" alt="David 4" data-bs-toggle="modal" data-bs-target="#davidModal4">
+                <img src="./images/porš.webp" alt="David 4" data-bs-toggle="modal" data-bs-target="#davidModal4" style="border-radius: 10px;" class="slika">
             </div>
         </div>
     </div>
+
 
     <!-- Modal 1 -->
     <div class="modal fade" id="davidModal1" tabindex="-1" aria-labelledby="davidModal1Label" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-body">
-                    <img src="./images/igor.jpg" alt="David 1">
+                    <img src="./images/igor.jpg" alt="prazno" class="slika">
                 </div>
             </div>
         </div>
@@ -107,7 +101,7 @@
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-body">
-                    <img src="./images/igor.webp" alt="David 2">
+                    <img src="./images/lbj.gif" alt="prazno" class="slika">
                 </div>
             </div>
         </div>
@@ -118,7 +112,7 @@
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-body">
-                    <img src="./images/ferit_0_0.webp" alt="David 3">
+                    <img src="./images/lebron.bmp" alt="prazno" class="slika">
                 </div>
             </div>
         </div>
@@ -129,7 +123,7 @@
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-body">
-                    <img src="./images/no background small.png" alt="David 4">
+                    <img src="./images/porš.webp" alt="prazno" class="slika">
                 </div>
             </div>
         </div>
@@ -143,7 +137,8 @@
 
     <div class="row mt-4 audio">
         <div class="col text-center">
-            <p>Moj cover gitarom na pjesmu smooth operator</p>
+            <h3 style="color: aliceblue;">Glazba</h3>
+            <h3 style="color: rgb(253, 253, 253);">Moj cover gitarom na pjesmu smooth operator</h3>
             <audio controls>
                 <source src="./Audio files/Smooth Mix.mp3" type="audio/mpeg">
                 Your browser does not support the audio element.
@@ -157,9 +152,21 @@
         </div>
     </div>
 
-    <div class="row   youtube-video">
+    <div class="row youtube-video">
         <div class="col text-center">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/GZIyusQaS9s?si=QqwI9uxlL2r6wKxs" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
+<div class="footer" style="background-color: rgb(235, 233, 233);">
+    <div class="row kon">
+        <div class="col">
+            <img src="./images/ferit_0_0.webp" alt="Slika">
+        </div>
+        <div class="col">
+            <div class="footer">
+                <p>Ovu stranicu su izradili David i Igor za kolegij Multimedijska tehnika</p>
+            </div>
         </div>
     </div>
 </div>

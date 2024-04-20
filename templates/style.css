@@ -1,12 +1,17 @@
-
 .card:hover{
     box-shadow: 8px 8px 8px rgba(43, 1, 43, 0.719);
     transform:scale(1.1);
     
 }
+h1:hover{
+  
+  transform:scale(1.1);
+}
+h1{
+  transition: 0.3s;
+}
 
 .card{
-  
   transition:.3s;
   margin: 3rem;
 }
@@ -15,7 +20,9 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #333333a9;
+    border-radius: 5px;
+   
   }
   
 li{
@@ -23,8 +30,9 @@ float: left;
 }
   
 li a {
+  transition: 0.3s;
     display: block;
-    color: white;
+    color: rgba(255, 255, 255, 0.74);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -32,7 +40,25 @@ li a {
   /* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #111;
+    transform: scale(1.1);
+    color: rgba(238, 159, 13, 0.747);
 }
 .active {
-    background-color: #04AA6D;
+    background-color: #294ef0;
+    font-size: large;
+}
+body{
+  font-family:'Times New Roman', Times, serif;
+  font-size: large;
+  
+}
+.content{
+  transform: scale(1.1);
+}
+.slika:hover{
+  transform: scale(1.1);
+  
+}
+.slika{
+  transition: 0.3s;
 }
