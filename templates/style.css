@@ -15,19 +15,8 @@ h1{
   transition:.3s;
   margin: 3rem;
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #ffffff2d;
-    border-radius: 5px;
-   
-  }
-  
-li{
-float: left;
-}
+
+
 #multi{
   color: rgba(255, 255, 255, 0.836);
   text-shadow:
@@ -40,25 +29,24 @@ float: left;
   color: rgba(255, 255, 255, 0.705);
   font-size: larger;
 }
-  
-li a {
-  transition: 0.3s;
-    display: block;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+.navbar{
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
 }
+
   /* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: #111;
-    transform: scale(1.1);
-    color: rgba(238, 159, 13, 0.747);
+    background-color: #ffffff8e;
+    border-radius: 8px;
+    
 }
-.active {
-    background-color: #294ef0;
-    font-size: large;
+.active:hover {
+    
+    font-size: x-large;
 }
 body{
   font-family:'Times New Roman', Times, serif;
