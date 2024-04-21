@@ -7,12 +7,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <style>
-       
-        a {
-            color: black; /* Boja linkova */
-            text-decoration: none; /* Uklanjanje podvlačenja */
-        }
-
+       a{
+        text-decoration: none;
+       }
         /* Stilovi za linkove na hover (kada korisnik pređe mišem preko linka) */
         a:hover {
             color: gray; /* Promjena boje na hover */
@@ -42,39 +39,70 @@
         }
     </style>
 </head>
-<body style="background-image:url(./images/kobe_lebron_16x9.png); background-size: auto;   ">
+<body style="background-image:url(./images/backgrnd.jpg); background-size: auto;   ">
 
     <!--navigacija-->
-    <ul style="margin-left: 15%; margin-right: 15%; margin-top: 5px;">
-        <li class="active"><a href="">Igor</a></li>
-        <li><a href="https://davidloboda.github.io/multimedia/templates/index.html">Početna</a></li>
-        <li><a href="https://davidloboda.github.io/multimedia/templates/david.html">Kolega David</a></li>
-      </ul> 
+    <nav class="navbar navbar-expand-lg" style="background-color: #ffffff33;">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page">Igor</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://davidloboda.github.io/multimedia/templates/david.html">Kolega David</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://davidloboda.github.io/multimedia/templates/index.html">Početna</a>
+              </li>
+             
+            </ul>
+          </div>
+        </div>
+      </nav>
+  
 
-
-    <div class="container mt-4" style="background-color:rgba(250, 238, 216, 0.932); border-radius: 8px;">
+    <div class="container mt-4" style="background-color:rgba(255, 255, 255, 0.295); border-radius: 8px;">
         <h1 class="text-center">Igor Balić</h1>
         <h3>Općenito o meni:</h3><hr>
             <p>Pozdrav! Moje ime je  Igor Balić i student sam 
-            <a href="https://www.ferit.unios.hr/" style="color: brown;">FERIT-a.</a><br>
-            <p>Trenutno sam na trećoj godini preddiplomskog stručnog studija računarstva. </p>
-            <p>Rođen sam 02.07.1999. godine u Vinkovcima.</p>
+            <a href="https://www.ferit.unios.hr/" style="color: rgba(255, 255, 255, 0.726);">FERIT-a.</a><br>
+            Trenutno sam na trećoj godini preddiplomskog stručnog studija računarstva. 
+            >Rođen sam 02.07.1999. godine u Vinkovcima.
         Završio sam  <a href="http://ss-tehnicka-ntesla-vu.skole.hr/" 
-        style="color: brown;">Tehničku školu Nikole Tesle u Vukovaru</a> i stekao zvanje tehničar za računalstvo. <br>
-        <p>Nakon svog srednjoškolskog obrazovanja upisujem 
-            <a href="https://www.fizika.unios.hr/" style="color: brown;">Odjel za fiziku</a> u Osijeku gdje sam studirao 2 semestra.</p>
+        style="color: rgba(255, 255, 255, 0.726);">Tehničku školu Nikole Tesle u Vukovaru</a> i stekao zvanje tehničar za računalstvo. <br>
+        Nakon svog srednjoškolskog obrazovanja upisujem 
+            <a href="https://www.fizika.unios.hr/" style="color: rgba(255, 255, 255, 0.726);">Odjel za fiziku</a> u Osijeku gdje sam studirao 2 semestra.</p><hr>
+            <h3>Kontakt informacije:</h3>
+            <p>E-mail: igor.balic.27@gmail.com, ibalic@etfos.hr</p>
+            <a href="https://github.com/Iggy2399" >
+            <img src="./images/github.png" style="width: 60px; height: 50px;">
+             </a>
+             <a href="https://gitlab.com/Igor.Balic" >
+                <img src="./images/gitlab.jpg" style="width: 50px; height: 40px; border-radius: 90%;"></a>
+                <p>GitHub i GitLab </p><hr>
+                <h3>Iskustvo:</h3>
+                <p>Stručna praksa "Frontend programiranje" web stranica u "Informatika Fortuno".</p>
+                <p>Rad na inventurama u trgovinam za firmu "Dantem". </p>
+                <p>Dvije sezone sam radio na moru u restoranu kao kuhar.</p>
+                <p>Telefonsko anketiranje za tvrtku "IPSOS".</p>
+                <p>Sezonski posao u proizvodnji smrznutog voća i povrća.</p>
+                
             <H3>Hobiji:</H3>
             <p>Glazba mi je jedan o većih hobija, u slobodno vrijeme sviram gitaru. Također sport isto, nekoliko puta tjedno se bavim calisthenicsom i igram basket kada se ekipa okupi.
                 Ljubitelj sam filmova, serija i video igrica.
-            </p>
+            </p><hr>
             <h3>Vještine:</h3>
-            <p>Smatram se komunikativnom osobom i timskim igračem.
-            Dobro znanje engleskog jezika u pismu, čitanju i razgovoru. Imam iskustva u radu s frontend i backend razvojem web stranica u Angular frameworku, također i NodeJs za backend.</p>
+            <p>Smatram se komunikativnom osobom i timskim igračem. Dosta brzo učim nove tehnologije i 
+            Dobro znanje engleskog jezika u pismu, čitanju i razgovoru. Imam iskustva u radu s frontend i backend razvojem web stranica u Angular frameworku, također i NodeJs za backend.</p><hr>
 
         
         <h4 class="text-center">Galerija</h4>
 
-        <div class="row mt-4 gallery" style="background-color:rgba(0, 0, 0, 0.623); border-radius: 8px;">
+        <div class="row mt-4 gallery" style="background-color:rgba(0, 0, 0, 0.404); border-radius: 8px;">
             <div class="col-md-3">
                 <p class="text-center" style="color: rgba(255, 255, 255, 0.836);">JPG</p>
                 <img src="./images/igor.jpg" alt="David 1" data-bs-toggle="modal" data-bs-target="#davidModal1" style="border-radius: 10px;" class="slika">
