@@ -11,7 +11,7 @@
             background-color: #4744440c; /* Promijenite ovu vrijednost u željenu boju */
         }
         a {
-            color: black; /* Boja linkova */
+            color: rgb(69, 114, 71); /* Boja linkova */
             text-decoration: none; /* Uklanjanje podvlačenja */
         }
 
@@ -43,10 +43,15 @@
         .lj {
             background-color: #ffffff2c;
         }
+        .slika {
+            width: 100%;
+            height: 200pt;
+        }
         
     </style>
 </head>
 <body>
+    
      <!--navigacija-->
      <ul style="margin-left: 15%; margin-right: 15%; margin-top: 5px;">
         <li class="active"><a href="">David</a></li>
@@ -79,28 +84,41 @@
         </div>
         
 
-
-        
+        <h4 class="text-left">Iskustvo:</h4>
+        <hr>
+        <p>Vozač taksija za Cammeo, <br>
+            Dostavljač paketa udruga Slap,<br>
+            Geodetska istraživanja Ribel, <br>
+            Obrt za proizvodnju i trgovinu Loboda
+        </p>
+        <h4 class="text-left">Hobi:</h4>
+        <hr>
+        <p>Sviram tamburu, programiram mikroračunala i uživam u planinarenju.<br>
+             S obzirom na svoju povezanost s poloprivredom i programiranjem pokušavam stvoriti inovativna rijršrnja za unaprijeđivanje poljoprivrede.</p>
+        <h4 class="text-left">Vještine:</h4>
+        <hr>
+        <p>Posjedujem vještine u programskim jezicima C, Python i MicroPython, kao i u korištenju frameworka Django za razvoj web aplikacija.<br>
+            Također, iskusan sam u radu s Flutterom za izradu mobilnih aplikacija te u SQL-u za upravljanje bazama podataka.</p>
         </div>
         <p class="text-center"></p>
         <h4 class="text-center">Galerija</h4>
 
-        <div class="row mt-4 gallery">
+        <div class="row mt-4 gallery" style="border-radius: 8px;">
             <div class="col-md-3">
-                <p class="text-center">JPG</p>
-                <img src="./images/david.jpg" alt="David 1" data-bs-toggle="modal" data-bs-target="#davidModal1">
+                <p class="text-center" >JPG</p>
+                <img src="./images/david.jpg" alt="David 1" data-bs-toggle="modal" data-bs-target="#davidModal1" style="border-radius: 10px;" class="slika">
             </div>
             <div class="col-md-3">
                 <p class="text-center">GIF</p>
-                <img src="./images/igor.webp" alt="David 2" data-bs-toggle="modal" data-bs-target="#davidModal2">
+                <img src="./images/giphy.gif"  alt="David 2" data-bs-toggle="modal" data-bs-target="#davidModal2" style="border-radius: 10px;" class="slika">
             </div>
             <div class="col-md-3">
                 <p class="text-center">BMP</p>
-                <img src="./images/ferit_0_0.webp" alt="David 3" data-bs-toggle="modal" data-bs-target="#davidModal3">
+                <img src="./images/tambura (1).bmp" alt="David 3" data-bs-toggle="modal" data-bs-target="#davidModal3" style="border-radius: 10px;" class="slika">
             </div>
-            <div class="col-md-3">
-                <p class="text-center">WEBP</p>
-                <img src="./images/david4.jpg" alt="David 4" data-bs-toggle="modal" data-bs-target="#davidModal4">
+            <div class="col-md-3" >
+                <p class="text-center">PNG</p>
+                <img src="./images/fish.png" alt="David 4" data-bs-toggle="modal" data-bs-target="#davidModal4" style="border-radius: 10px;" class="slika">
             </div>
         </div>
     </div>
@@ -121,7 +139,7 @@
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-body">
-                    <img src="../images/igor.webp" alt="David 2">
+                    <img src="./images/giphy.gif" alt="David 2">
                 </div>
             </div>
         </div>
@@ -132,7 +150,7 @@
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-body">
-                    <img src="./images/ferit_0_0.webp" alt="David 3">
+                    <img src="./images/tambura (1).bmp" alt="David 3">
                 </div>
             </div>
         </div>
@@ -143,7 +161,7 @@
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-body">
-                    <img src="/images/david4.jpg" alt="David 4">
+                    <img src="./images/fish.png" alt="David 4">
                 </div>
             </div>
         </div>
@@ -158,7 +176,7 @@
     <div class="row mt-4 audio">
         <div class="col text-center">
             <audio controls>
-                <source src="./audio/davids_song.mp3" type="audio/mpeg">
+                <source src=".Kopija datoteke 21. tra 18.21_.m4a" type="audio/mpeg">
                 Your browser does not support the audio element.
             </audio>
         </div>
@@ -172,7 +190,7 @@
 
     <div class="row   youtube-video">
         <div class="col text-center">
-            <p>Primjer Multimedije</p>
+            <p>Mjesto gdje živim</p>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/0NoXtGJ90m8?si=rCafgeD9Ucfs81Qp" frameborder="0" allowfullscreen></iframe>
         </div>
     </div>
@@ -188,7 +206,7 @@
 <div class="footer">
     <div class="row kon">
         <div class="col">
-            <img src="/images/ferit_0_0.webp" alt="Slika">
+            <img src="./images/ferit_0_0.webp" alt="Slika">
         </div>
         <div class="col">
             <div class="footer">
